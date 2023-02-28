@@ -20,7 +20,9 @@
 		* These Examples use the same docket but instead of modifyDate being unique, is the same across the entries. 
 		* Each of these examples is duplicated twice and there seems to be no differentiation amongst them
 * Example CLI command to query elements by id and modifyDate
-```mongo mirrulations --eval 'db.dockets_2023_02_03.find({"data.id": "VA-2021-VACO-0001", "data.attributes.modifyDate": "2021-12-17T16:52:03Z"}).pretty()'
-```
-	* `dockets_2023_02_03`: the collection to query 
-	* add or remove attributes within find({}) to edit query
+
+`mongo mirrulations --eval 'db.dockets_2023_02_03.find({"data.id": "VA-2021-VACO-0001", "data.attributes.modifyDate": "2021-12-17T16:52:03Z"}).pretty()'
+`
+
+`dockets_2023_02_03`: the collection to query 
+add or remove attributes within find({}) to edit query
