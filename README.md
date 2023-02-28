@@ -23,4 +23,4 @@
 ```mongo mirrulations --eval 'db.dockets_2023_02_03.find({"data.id": "VA-2021-VACO-0001", "data.attributes.modifyDate": "2021-12-17T16:52:03Z"}).pretty()'
 ```
 	* `dockets_2023_02_03`: the collection to query 
-	* add or remove attributes within find({}) to edit query
+	* add or remove attributes within find({}) to edit query 
